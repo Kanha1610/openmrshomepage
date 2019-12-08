@@ -1,0 +1,842 @@
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
+
+  *{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .container{
+  width:100%;
+  height: auto;
+  background-color: #fff;
+  }
+
+  .main{
+  max-width: 1200px;
+  height: auto;
+    margin: 0 auto;
+  }
+
+  nav{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  }
+
+  nav ul{
+  	position:absolute;
+  	top: 6%;
+  	left:61%;
+  	transform:translate(-50%,-50%);
+  }
+
+  nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  }
+
+
+  nav ul li a{
+  text-decoration: none;
+  color: #272727;
+  line-height: 100px;
+  padding: 35px 10px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  	text-transform: uppercase;
+  }
+
+
+
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  #Closing {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+  }
+
+  /* Donation Button */
+
+  .btn2 {
+     width: 300px;
+    height: auto;
+    border: 3px solid #bb0000;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+    font-size: 24px;
+    color: #bb0000;
+    box-sizing: border-box;
+  	position:absolute;
+  	top: 0%;
+  	left:90%;
+  	transform:translate(-50%,-50%);
+
+  }
+
+  .btn2 p {
+    position: relative;
+    z-index: 999;
+  	text-decoration: none;
+  	display: inline-block;
+  	color: #9BD40F  ;
+  }
+
+  .btn2:hover {
+    color: #fff;
+  }
+
+  .btn2 .t-slider {
+    width: 100%;
+    background-color: #bb0000;
+    height: 60px;
+    position: absolute;
+    top: -98px;
+    left: 0px;
+    transform: skewY(10deg);
+    transition: all 0.7s;
+
+  }
+
+  .btn2 .d-slider {
+    width: 100%;
+    background-color: #bb0000;
+    height: 68px;
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    transform: skewY(10deg);
+    transition: all 0.7s;
+  }
+
+  .btn2:hover .t-slider {
+    top: -30px;
+    transition: all 0.7s;
+  }
+
+  .btn2:hover .d-slider {
+    top: 29px;
+    transition: all 0.7s;
+  }
+
+
+
+
+
+
+  .container1{
+  	position: absolute;
+  	top: 6%;
+  	left:30%;
+  	transform:translate(-50%,-50%);
+  	font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .dropbtn {
+    background-color: #FFFFFF;
+    color:  ;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  	transition: 0.8s ease;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #FFFFFF;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+  	font-size: 19px;
+  }
+
+  .dropdown-content a:hover {background-color: #FFE5C5  ;	transition: 0.8s ease;	}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #936EBC  ;
+  }
+
+
+
+
+
+  .slider3{
+  width: 100%;
+  height: 800px;
+  background-image: url("https://openmrs.org/wp-content/uploads/2017/04/IMG_4720.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  }
+
+  .slider3 .title{
+  width: 40%;
+  height: auto;
+  position: absolute;
+  left: 18.5%
+  }
+
+  .slider3 .title h1{
+  font-size: 70px;
+  color: black;
+  line-height: 65px;
+  }
+
+  .slider3 .title h1 span{
+  color: #01d7a7;
+  }
+
+  .slider3 .title p{
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+  margin-top: 15px;
+  padding-right: 20px;
+  }
+
+  .slider3 .title .btn{
+  color: #fff;
+  background-color: #01d7a7;
+  border-radius: 35px;
+  padding: 15px 36px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  margin-right: 10px;
+  line-height: 26px;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 15px;
+  }
+
+  .slider3 .title .btn:hover{
+  background-color: #272727;
+  transition: 0.3s all;
+
+  }
+
+
+
+
+
+
+
+
+
+  h1.title{
+  	margin-bottom: 20px;
+  	color: #444444;
+  	font-family: 'Allura', cursive;
+  	text-transform: uppercase;
+  	font-size: 38px;
+  	word-spacing: 25px;
+  	letter-spacing: 5px;
+  }
+
+  .btn a{
+  	display: block;
+  	width: 180px;
+  	height: 35px;
+  	border: 2px solid #fb2274;
+  	line-height: 35px;
+  	margin: 25px auto 0;
+  	color: #fb2274;
+  	text-align: center;
+  }
+
+  .main_container{
+  	position: relative;
+  	width: 100%;
+  	background-color: #fff;
+
+  }
+
+
+
+
+
+
+  .logo img{
+
+  	float:left;
+  	width:150px;
+  	height:auto;
+  	position:absolute;
+  	top: 10%;
+  	left:5%;
+  	transform:translate(-50%,-790%);
+  }
+
+  .navbar .navbar_items ul{
+  	display: flex;
+  }
+
+
+  .navbar .navbar_items ul li{
+  	text-transform: uppercase;
+  	margin: 0 10px;
+  }
+
+  .navbar .navbar_items ul li a{
+  	color: #fff;
+  }
+
+  /* Banner Image */
+  .banner_image{
+  	background: url("1.jpg") no-repeat top center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 600px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+  }
+
+  .banner_image2{
+
+  	background-size: cover;
+  	width: 100%;
+  	height: 300px;
+  	display: grid;
+  	justify-content: center;
+  	align-items: center;
+  	position: absolute;
+  	top:250%;
+  	left:50%;
+  	transform:translate(-50%,-50%);
+  	background:linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)
+  	    ),url("https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")  no-repeat top center;
+
+
+  }
+
+  .banner_content{
+  	text-align: center;
+  	color: #fff;
+  }
+
+  .banner_content h1{
+  	text-transform: uppercase;
+  	line-height: 38px;
+  	margin-bottom: 15px;
+  }
+
+  .banner_content h1 span{
+  	color: #fb2274;
+  }
+
+  /* About us */
+  .about,
+  .Ourteam,
+  .Blog,
+  .contactus{
+  	padding: 5% 10%;
+  	text-align: center;
+  }
+
+
+  /* Our Team*/
+  .ourteam{
+  	background: #f5f5f5;
+  }
+
+  .ourteam_wrapper .team{
+  	display: flex;
+  	justify-content: space-between;
+  }
+
+  .ourteam_wrapper .team-1.team{
+  	margin-bottom: 25px;
+  }
+
+  .ourteam_wrapper .team_member{
+  	width: 30%;
+  	height: auto;
+  	cursor: pointer;
+  	overflow: hidden;
+  }
+
+  .ourteam_wrapper .team_member img{
+  	width: 100%;
+  	display: block;
+  	height: auto;
+  	transition: all 0.5s ease;
+  }
+
+  .ourteam_wrapper .team_member:hover img{
+  	transform: scale(1.1);
+  }
+
+  /* footer */
+  .footer{
+  	width: 100%;
+  	text-align: center;
+  	background: #444444;
+  	padding: 50px 0;
+  	position:absolute;
+  	top:100%;
+  	left:50%;
+  	transform:translate(-50%,-50%);
+  }
+
+  .footer a{
+  	color: #fff;
+  }
+
+  @media (max-width: 720px){
+  	.navbar{
+  		height: auto;
+  		flex-direction: column;
+  	}
+
+  	.navbar ul{
+  		flex-direction: column;
+  		text-align: center;
+  	}
+
+  	.logo{
+  		margin-bottom: 15px;
+  	}
+
+  	.navbar ul li{
+  		margin-bottom: 5px;
+  	}
+
+  	.banner_content{
+  		margin-top: 35px;
+  	}
+  }
+
+  /* arrow */
+  .arrow{
+  	position: fixed;
+  	bottom: 25px;
+  	right: 25px;
+  	width: 40px;
+  	height: 40px;
+  	line-height: 50px;
+  	text-align: center;
+  	cursor: pointer;
+  	background: #fb2274;
+  	border-radius: 50%;
+  }
+
+  .arrow img{
+  	width: 20px;
+  	height: 20px;
+  	z-index: 1;
+  }
+
+
+
+  /* Rectangle Box */
+
+
+  *{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .box1{
+  width:100%;
+  height: 19%;
+  background-color: #737373;
+  }
+
+  .mainbox1{
+  max-width: 1200px;
+  height: auto;
+    margin: 0 auto;
+  }
+
+  nav1{
+  width: 100%;
+  height: 300px;
+  color: white;
+  font-family: monospace;
+  }
+
+  .middleheading{
+
+  font-size: 40px;
+  position:absolute;
+  top: 20%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  }
+
+  .AnimalRescue a{
+
+    font-size: 30px;
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+      color: white;
+  }
+
+  .AnimalPlacement a{
+
+    font-size: 30px;
+    position:absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+      color: white;
+  }
+
+  .AnimalProtection a{
+    font-size: 30px;
+    position:absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    display:block;
+    color: white;
+    text-decoration: none;
+  }
+
+
+      /*  NEW FORM   */
+
+
+  .NEW{
+  font-size: 60;
+  font-family: cursive;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+
+    /*  box01  */
+
+
+  *{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .box01{
+  width: 35%;
+  height: 100%;
+  background-color:;
+  position: absolute;
+  top: 130%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  }
+
+
+  .date{
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  transform: translate(-50%,-50%);
+  color: grey;
+  }
+
+  .linkline a{
+  font-size: 21px;
+  position: absolute;
+  top: 19%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+  color: Red;
+  text-decoration: none;
+  }
+
+  .data1{
+  font-size: 21;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  }
+
+
+
+
+
+  /*  box02  */
+
+
+  *{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .box02{
+  width: 100%;
+  height: 100%;
+  background-color:;
+  position: absolute;
+  top: 50%;
+  left: 190%;
+  transform: translate(-50%,-50%);
+
+  }
+
+
+  .date1{
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  color: grey;
+  }
+
+  .linkline1 a{
+  font-size: 21px;
+  position: absolute;
+  top: 22%;
+  left: 21%;
+  transform: translate(-50%,-50%);
+  color: red;
+  text-decoration: none;
+
+  }
+
+  .data2 {
+  font-size: 21;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+
+  }
+
+</style>
+  </head>
+
+
+
+
+
+
+
+  <div class="container">
+      <div class="main">
+        <nav>
+
+            <ul>
+              <li><a href="dogs.html">home</a></li>
+      				<li><a href="https://openmrs.org/about/">About Us</a></li>
+      				<li><a href="https://openmrs.org/about/contact/">contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+
+<div id="Closing">
+  <div class="btn2">
+  <a href="https://openmrs.org/help-openmrs-fight-malaria/"><p>DONATE</p></a>
+    <span class="t-slider"></span>
+    <span class="d-slider"></span>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+<div class="container1">
+
+    <div class="dropdown" style="float:left;">
+      <button class="dropbtn">Applications</button>
+      <div class="dropdown-content" style="left:0;">
+      <a href="https://openmrs.org/download/">Download</a>
+      <a href="https://sourceforge.net/projects/openmrs/
+      files/releases/OpenMRS_Reference_Application_2.
+      9.0/referenceapplication-standalone-2.9.0.zip/download">Get OpenMRS Free</a>
+
+      </div>
+    </div>
+
+    <div class="dropdown" style="float:left;">
+      <button class="dropbtn">Blog</button>
+      <div class="dropdown-content">
+      <a href="https://openmrs.org/about/">About our Community</a>
+      <a href="https://openmrs.org/about/mission/">Supporting Orgs</a>
+      <a href="https://openmrs.org/about/support/">Our Mission</a>
+      </div>
+    </div>
+</div>
+
+
+
+
+      <div class="slider3">
+          <div class="title">
+              <h1>Help OpenMRS Fight Malaria!  <span>Importance of HealthIT   </span></h1>
+                  <p>Financial Transparency</p>
+                  <a href="https://openmrs.org/help-openmrs-fight-malaria/" class="btn">Donate</a>
+
+
+          </div>
+      </div>
+</div>
+
+
+
+<div class="main_container" id="home">
+
+	<div class="navbar">
+		<div class="logo">
+			<a href="#"><img src="1.png"></a>
+		</div>
+</div>
+
+
+
+
+<!--Rectangle-->
+
+<div class="box1">
+  <div class="mainbox1">
+      <nav1>
+          <div class="middleheading">
+          Blog
+          </div>
+
+          <div class="AnimalRescue">
+        <a href="https://openmrs.org/about/"> About our Community &nbsp;&nbsp;   &#10146; </a>
+
+          </div>
+
+          <div class="AnimalPlacement">
+      <a href="https://openmrs.org/about/support/"> Supporting Orgs &nbsp;&nbsp;  &#10146; </a>
+          </div>
+
+          <div class="AnimalProtection">
+      <a href="https://openmrs.org/about/mission/">Our Mission &nbsp;&nbsp; &#10146; </a>
+          </div>
+
+    </nav1>
+  </div>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="banner_image2">
+	<div class="footer">
+		<a href="https://openmrs.org/about/">All &copy; OpenMRS</a>
+	</div>
+
+	<div class="arrow">
+		<a href="#home"><img src="https://i.imgur.com/wre6n0O.png" alt="up_arrow"></a>
+	</div>
+</div>
+
+
+
+<!--NEW-->
+
+<div class="NEW">
+Who are we?
+</div>
+
+
+<!--1 Boxes-->
+
+<div class="box01">
+  <div class="date">
+    June 7, 2019
+  </div>
+    <div class="linkline">
+      <a href="https://openmrs.org/help/">  Who are we?</a>
+    </div>
+      <div class="data1">
+        The OpenMRS community is a worldwide network of volunteers from many different backgrounds including technology,
+        health care, and international development. Together, we're working to build the world's largest and most flexible
+        technology platform to support delivery of health care in some of the most challenging environments on the planet.
+        No matter what your background or interest, we'd love to have you help us save lives with Health IT.<font color="Red"><a href="https://openmrs.org/help/"> Join us.</a></font>
+      </div>
+
+
+<!--2 Boxes-->
+
+      <div class="box02">
+        <div class="date1">
+          June 3, 2019
+        </div>
+          <div class="linkline1">
+        <a href="http://atlas.openmrs.org/">Where are we?</a>
+          </div>
+            <div class="data2">
+              Although we started out to fix a database system in a single clinic in Kenya,
+              in the last few years OpenMRS has grown dramatically to be used both in research and
+              clinical settings in every corner of the planet. We're very proud of the innovators using OpenMRS to improve
+              health care worldwide.<font color="Red"><a href="http://atlas.openmrs.org/">Take a look where OpenMRS is being used.</a></font>
+
+            </div>
+
+
+
+
+
+  </div>
+</div>
+</body>
+</html>
